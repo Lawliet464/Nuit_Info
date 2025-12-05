@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat'bruti - Le Défi Viveris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Chat'bruti - Sélectionnez votre Charlatan</h1>
+    </header>
+
+    <div id="app-container">
+        <!-- Zone de sélection -->
+        <div id="selection-zone" class="card">
+            <h2>Choisissez votre interlocuteur</h2>
+            <p>Préparez-vous à l'inutile...</p>
+            <div class="chatbots-grid">
+                <!-- Les boutons seront générés par JS -->
+            </div>
+        </div>
+        
+        <!-- Zone de chat -->
+        <div id="chat-zone" class="card" style="display: none;">
+            <div id="chat-header">
+                <button id="back-button">← Retour</button>
+                <h2 id="chatbot-name"></h2>
+            </div>
+            
+            <div id="messages-container"></div>
+            
+            <form id="message-form">
+                <input type="text" id="user-input" placeholder="Posez une question absurde..." required>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
