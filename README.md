@@ -51,6 +51,6 @@ Ces IA savent-elles qu'elles ne savent pas ? Sont-elles conscientes de leur absu
 🚀 Comment Tester cette Folie
 bash
 # Clonez ce projet qui sent encore la nuit blanche
-git clone git remote add origin https://github.com/Lawliet464/Nuit_Info.git
+git clone https://github.com/Lawliet464/Nuit_Info.git
 
 
