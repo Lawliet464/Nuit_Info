@@ -53,14 +53,4 @@ bash
 # Clonez ce projet qui sent encore la nuit blanche
 git clone git remote add origin https://github.com/Lawliet464/Nuit_Info.git
 
-# Installez les dépendances (préparez-vous à l'imprévisible)
-npm install
-
-# Lancez le serveur (et croisez les doigts)
-npm start
-Posez n'importe quelle question. Absurde, sérieuse, existentielle ou banale. Nos IA vous répondront... mais pas forcément comme vous l'attendez.
-
-Développé pendant la Nuit de l'Info, entre deux crises de rire et trois litres de café, par des développeurs qui avaient oublié ce que "dormir" voulait dire.
-
-P.S. : Si l'IA répond "42" à votre question, c'est normal. C'est toujours la réponse. Sauf quand ce n'est pas le cas.
 
